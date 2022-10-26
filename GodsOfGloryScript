@@ -1,0 +1,205 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MadeByLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local WelcomeLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local InfMoney = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local ExtraLabel = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local WalkSpeed = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ToggleGUILabel = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+main.Position = UDim2.new(0.14948453, 0, 0.267068267, 0)
+main.Size = UDim2.new(0, 544, 0, 279)
+main.Active = true
+main.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = main
+
+MadeByLabel.Name = "MadeByLabel"
+MadeByLabel.Parent = main
+MadeByLabel.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+MadeByLabel.Size = UDim2.new(0, 163, 0, 50)
+MadeByLabel.Font = Enum.Font.SourceSans
+MadeByLabel.Text = "Made By DINO#1390"
+MadeByLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadeByLabel.TextSize = 18.000
+
+UICorner_2.CornerRadius = UDim.new(0, 12)
+UICorner_2.Parent = MadeByLabel
+
+WelcomeLabel.Name = "WelcomeLabel"
+WelcomeLabel.Parent = main
+WelcomeLabel.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+WelcomeLabel.Position = UDim2.new(0.299632341, 0, 0, 0)
+WelcomeLabel.Size = UDim2.new(0, 237, 0, 50)
+WelcomeLabel.Font = Enum.Font.SourceSans
+WelcomeLabel.Text = "Welcome"
+WelcomeLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeLabel.TextSize = 18.000
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = WelcomeLabel
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+ImageLabel.Position = UDim2.new(0.735294104, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 144, 0, 100)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = ImageLabel
+
+InfMoney.Name = "InfMoney"
+InfMoney.Parent = main
+InfMoney.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+InfMoney.Position = UDim2.new(0.316176474, 0, 0.326164871, 0)
+InfMoney.Size = UDim2.new(0, 200, 0, 50)
+InfMoney.Font = Enum.Font.SourceSans
+InfMoney.Text = "Infinite Money"
+InfMoney.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfMoney.TextSize = 18.000
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = InfMoney
+
+ExtraLabel.Name = "ExtraLabel"
+ExtraLabel.Parent = main
+ExtraLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExtraLabel.Position = UDim2.new(0, 0, 0.537634432, 0)
+ExtraLabel.Size = UDim2.new(0, 544, 0, 50)
+ExtraLabel.Font = Enum.Font.SourceSans
+ExtraLabel.Text = "Extra"
+ExtraLabel.TextColor3 = Color3.fromRGB(21, 0, 255)
+ExtraLabel.TextSize = 18.000
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = ExtraLabel
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = main
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+WalkSpeed.Position = UDim2.new(-1.11758709e-08, 0, 0.752688169, 0)
+WalkSpeed.Size = UDim2.new(0, 200, 0, 50)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed"
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.TextSize = 18.000
+
+UICorner_7.CornerRadius = UDim.new(0, 12)
+UICorner_7.Parent = WalkSpeed
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = main
+JumpPower.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+JumpPower.Position = UDim2.new(0.367647082, 0, 0.752688169, 0)
+JumpPower.Size = UDim2.new(0, 200, 0, 50)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "JumpPower"
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.TextSize = 18.000
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = JumpPower
+
+ToggleGUILabel.Name = "ToggleGUILabel"
+ToggleGUILabel.Parent = main
+ToggleGUILabel.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ToggleGUILabel.Position = UDim2.new(0.759191155, 0, 0.820788503, 0)
+ToggleGUILabel.Size = UDim2.new(0, 131, 0, 50)
+ToggleGUILabel.Font = Enum.Font.SourceSans
+ToggleGUILabel.Text = "P To Toggle GUI"
+ToggleGUILabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleGUILabel.TextSize = 18.000
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = ToggleGUILabel
+
+-- Scripts:
+
+local function GHZYYT_fake_script() -- WelcomeLabel.LocalScript 
+	local script = Instance.new('LocalScript', WelcomeLabel)
+
+	local player = game.Players.LocalPlayer
+	
+	if player then
+		script.Parent.Text = "Welcome, "..player.Name.."!"
+	end
+	
+	
+	
+end
+coroutine.wrap(GHZYYT_fake_script)()
+local function SZSKDFA_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local image = script.Parent
+	image.Image = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId,Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+end
+coroutine.wrap(SZSKDFA_fake_script)()
+local function YKHHLER_fake_script() -- InfMoney.LocalScript 
+	local script = Instance.new('LocalScript', InfMoney)
+
+	script.Parent.MouseButton1Click:connect(function()
+		local args = {[1] = {["Value"] = 100000000000000000000}}
+		game:GetService("ReplicatedStorage").Remotes.GiveMana:FireServer(unpack(args))
+	end)
+	
+end
+coroutine.wrap(YKHHLER_fake_script)()
+local function OPGASG_fake_script() -- WalkSpeed.LocalScript 
+	local script = Instance.new('LocalScript', WalkSpeed)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+	
+end
+coroutine.wrap(OPGASG_fake_script)()
+local function RZEOULS_fake_script() -- JumpPower.LocalScript 
+	local script = Instance.new('LocalScript', JumpPower)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+	end)
+	
+end
+coroutine.wrap(RZEOULS_fake_script)()
+local function ACXCCJI_fake_script() -- main.LocalScript 
+	local script = Instance.new('LocalScript', main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "p" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "p" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+	
+	
+	
+end
+coroutine.wrap(ACXCCJI_fake_script)()
